@@ -6,19 +6,19 @@ namespace Sololearn
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Enter a traffic light color: ");
+            Console.WriteLine("Enter a traffic light color: ");
             string color = Console.ReadLine();
             if (color == "red" | color == "yelow")
             {
-                System.Console.WriteLine("The driver must wait: ");
+                Console.WriteLine("The driver must wait: ");
             }
             else if (color == "green")
             {
-                System.Console.WriteLine("The driver must drive: ");
+                Console.WriteLine("The driver must drive: ");
             }
             else
             {
-                System.Console.WriteLine("Non traffic lights color: ");
+                Console.WriteLine("Non traffic lights color: ");
             }
         }
     }
