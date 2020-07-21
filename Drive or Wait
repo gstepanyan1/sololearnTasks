@@ -6,7 +6,7 @@ namespace Sololearn
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Enter a traffic light color: ");
+            Console.WriteLine("Enter a traffic light color: ");
             string color = Console.ReadLine();
             if ([  ] == "red" | color == "yelow")
             {
