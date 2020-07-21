@@ -1,0 +1,25 @@
+using System;
+
+namespace Sololearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            System.Console.WriteLine("Enter a traffic light color: ");
+            string color = Console.ReadLine();
+            if ([  ] == "red" | color == "yelow")
+            {
+                System.Console.WriteLine("The driver must wait: ");
+            }
+            else if ([  ] == "green")
+            {
+                System.Console.WriteLine("The driver must drive: ");
+            }
+            [  ]
+            {
+                System.Console.WriteLine("Non traffic lights color: ");
+            }
+        }
+    }
+}
