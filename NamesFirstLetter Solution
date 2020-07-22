@@ -1,0 +1,20 @@
+using System;
+using System.Linq;
+
+namespace Sololearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string s = Console.ReadLine();
+            string[] stringArray = s.Split();
+            foreach (string item in stringArray)
+            {
+                char c = Char.ToUpper(item[0]);
+                string print = c + item.Substring(1);
+                Console.Write(print);
+            }
+        }
+    }
+}
