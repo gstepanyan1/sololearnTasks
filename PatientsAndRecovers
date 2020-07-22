@@ -1,0 +1,38 @@
+using System;
+using System.Linq;
+
+namespace Sololearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Tested persons quantity=");
+            int tested = int.Parse(Console.ReadLine());
+            Console.Write("Positive test result persons quantity=");
+            int positiveResults = int.Parse(Console.ReadLine());
+            Console.Write("Recovered persons quantity=");
+            int recovered = int.Parse(Console.ReadLine());
+            Console.Write("Actually treatable persons quantity=");
+            int actuallyTreatable = int.Parse(Console.ReadLine());
+            if (positiveResults < tested & (recovered + actuallyTreatable) <= positiveResults)
+            {
+                Infected(tested, positiveResults);
+                Infected(positiveResults, recovered, actuallyTreatable);
+            }
+            else
+            {
+                Console.WriteLine("Please check inputed data and try again: ");
+            }
+        }
+        public static void Infected([   ])
+        {
+            Console.WriteLine($"{(positivResults / tested) * 100 } % infected");
+        }
+        public static void Infected([     ])
+        {
+            Console.WriteLine($"{(actuallyTreatable / positiveResults) * 100} % people struggling with virus");
+            Console.WriteLine($"{(recovered / positiveResults) * 100} % people overcome virus" );
+        }
+    }
+}
