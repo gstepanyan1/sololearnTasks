@@ -1,0 +1,27 @@
+using System;
+using System.Linq;
+
+namespace Sololearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string userString = Console.ReadLine();
+            int i = 0;
+            int count = 0;
+            userString = userString.ToLower();
+            while ([    ])
+            {
+                if (userString[i] == 'a')
+                {
+                    count++;
+                    [ ]++;
+                    [  ];
+                }
+                i++;
+            }
+            Console.WriteLine(count);
+        }
+    }
+}
